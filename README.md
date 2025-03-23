@@ -1,4 +1,4 @@
-# Loan Eligibility Prediction Using PCA & KNN
+# Loan Eligibility Prediction Using PCA & KNN (Machine Learning/AI - ML)
 
 ## Overview
 This project focuses on predicting loan eligibility using Principal Component Analysis (PCA) for dimensionality reduction and K-Nearest Neighbors (KNN) for classification. The notebook `PCA_KNN_LOAN_ELIGIBLITY_PREDICT.ipynb` contains the full implementation.
