@@ -1,6 +1,4 @@
-# ML
-Machine Learning/AI
-# Plant Disease Prediction
+# Plant Disease Prediction (Machine Learning/AI - ML)
 
 ## Overview
 This project focuses on predicting plant diseases using deep learning techniques. The notebook `plant_disease_pred.ipynb` contains the implementation of a model that classifies different plant diseases based on image inputs.
