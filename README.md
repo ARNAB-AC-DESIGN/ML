@@ -17,8 +17,9 @@ Install the required dependencies using pip:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn flask
 
+```
+##Dataset
 
-Dataset
 The model uses a dataset containing various health-related features to predict the presence of PCOS. The dataset includes features such as age, weight, BMI, hormonal levels, and symptoms like irregular periods, skin darkening, etc.
 
 Ensure the dataset is properly preprocessed before training:
@@ -29,7 +30,8 @@ Encode categorical variables
 
 Normalize or standardize numerical features
 
-How to Use
+##How to Use
+
 Open PCOS_19.ipynb to explore and preprocess the data.
 
 Train machine learning models (e.g., Random Forest, SVM, Logistic Regression).
@@ -42,7 +44,8 @@ Open index.html from the templates folder in the browser to enter data.
 
 Get prediction results on a new page (result.html).
 
-Model Architecture
+##Model Architecture
+
 The models used include traditional ML algorithms:
 
 Logistic Regression
@@ -61,17 +64,19 @@ Confusion Matrix
 
 Classification Report
 
-Web Application
+##Web Application
+
 Backend: Flask app (app.py) loads the model and handles prediction logic
 
 Frontend: HTML templates for user-friendly input and result display
 
 Supports form submission and result rendering
 
-Results
+##Results
+
 The best model achieved high accuracy on the test set. Results are displayed clearly in the notebook with metrics and plots showing training/validation performance.
 
-Future Improvements
+##Future Improvements
 Deploy the app online using Heroku or Render
 
 Add error handling and input validation
@@ -80,8 +85,9 @@ Use advanced models or deep learning techniques
 
 Collect more diverse and real-time data for better generalization
 
-License
+##License
 This project is open-source and free to use. Please give credit if used in research or production.
 
-Author
+##Author
 Developed by Arnab Chakrabort
+
