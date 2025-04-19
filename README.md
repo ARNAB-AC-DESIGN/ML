@@ -1,51 +1,18 @@
-# Plant Disease Prediction (Machine Learning/AI - ML)
+# PCOS Prediction (Machine Learning/AI - ML)
 
 ## Overview
-This project focuses on predicting plant diseases using deep learning techniques. The notebook `plant_disease_pred.ipynb` contains the implementation of a model that classifies different plant diseases based on image inputs.
+This project focuses on predicting Polycystic Ovary Syndrome (PCOS) using machine learning techniques. The notebook `PCOS_19.ipynb` contains the implementation of preprocessing, feature engineering, model training, evaluation, and saving the best model. A web application is also created using Flask to interact with the trained model via a simple HTML interface.
 
 ## Features
-- Image-based disease classification
-- Utilizes a Convolutional Neural Network (CNN)
-- Preprocessing of input images
-- Model training, validation, and evaluation
-- Visualization of training performance
+- PCOS prediction based on medical data
+- Data visualization and preprocessing
+- Multiple machine learning models tested
+- Evaluation with accuracy, precision, recall
+- Flask-based web application for user input
+- HTML frontend to display predictions
 
 ## Requirements
-To run this project, install the required dependencies:
+Install the required dependencies using pip:
 
 ```bash
-pip install tensorflow keras numpy pandas matplotlib seaborn opencv-python
-```
-
-## Dataset
-The model requires a dataset of plant disease images. Ensure you have a properly labeled dataset structured in a way that suits image classification tasks. The dataset should be split into training, validation, and test sets.
-
-## How to Use
-1. Open the `plant_disease_pred.ipynb` notebook.
-2. Load the dataset and preprocess the images.
-3. Train the CNN model using the provided code.
-4. Evaluate the model's performance on test data.
-5. Use the trained model for prediction.
-
-## Model Architecture
-- Input Layer: Processes image data
-- Convolutional Layers: Extracts important features
-- Pooling Layers: Reduces dimensionality
-- Fully Connected Layers: Classifies the disease
-- Output Layer: Softmax activation for multi-class classification
-
-## Results
-The model's performance is evaluated using metrics like accuracy, loss, precision, and recall. Visualization plots are included to track training progress.
-
-## Future Improvements
-- Enhance dataset quality and size
-- Implement transfer learning for better accuracy
-- Optimize hyperparameters for improved performance
-- Deploy the model as a web or mobile application
-
-## License
-This project is open-source and can be modified as needed. Ensure proper citation if used in research or other projects.
-
-## Author
-Developed by Arnab Chakraborty
-
+pip install pandas numpy matplotlib seaborn scikit-learn flask
