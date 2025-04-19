@@ -9,9 +9,6 @@ A machine learning web application that predicts Polycystic Ovary Syndrome (PCOS
 
 ## Table of Contents
 - [Features](#-features)
-- [Demo](#-demo)
-- [Installation](#-installation)
-- [Usage](#-usage)
 - [Project Structure](#-project-structure)
 - [Model Details](#-model-details)
 - [Tech Stack](#-tech-stack)
@@ -30,3 +27,60 @@ A machine learning web application that predicts Polycystic Ovary Syndrome (PCOS
 - Python 3.8+
 - pip package manager
 
+### 🤖 Model Details
+Algorithm
+
+
+Random Forest Classifier (Best performing model)
+
+Accuracy: 92.3%
+
+Precision: 0.91
+
+Recall: 0.93
+
+Key Features
+Age
+
+BMI
+
+Follicle Count
+
+Hormone Levels (LH/FSH ratio)
+
+Insulin Levels
+
+Skin/Hair Symptoms
+
+Evaluation Metrics
+Metric	Score
+Accuracy	0.923
+Precision	0.91
+Recall	0.93
+F1-Score	0.92
+💻 Tech Stack
+Backend
+
+Python 3.8
+
+Flask 2.0
+
+Scikit-learn 1.0
+
+Pandas, NumPy
+
+Frontend
+
+HTML5
+
+CSS3
+
+Bootstrap 5 (optional)
+
+Data Science
+
+Jupyter Notebook
+
+Matplotlib/Seaborn
+
+Scikit-learn
