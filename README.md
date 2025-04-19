@@ -87,6 +87,17 @@ Algorithm
 
 - Deploy online using Heroku or Render
 
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this project, please follow these steps:
+
+1. **Fork** the repository
+2. **Clone** your forked repo:  
+   ```bash
+   git clone https://github.com/ARNAB-AC-DESIGN/pcos-predictor.git
+
+
+
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
