@@ -77,3 +77,14 @@ Algorithm
         Matplotlib/Seaborn
 
         Scikit-learn
+### 📌 TODO / Future Improvements
+
+- Add authentication to the app
+
+- Use Docker for containerized deployment
+
+- Enhance UI/UX using Bootstrap or React
+
+- Deploy online using Heroku or Render
+
+
