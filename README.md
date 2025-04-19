@@ -98,7 +98,7 @@ We welcome contributions to improve this PCOS Prediction project! To get started
 
 2. **Clone your fork**  
    ```bash
-   git clone https://github.com/arnab-ac-design/ML.git
+   git clone https://github.com/ARNAB-AC-DESIGN/ML.git
    cd ML  why you wrote your-username
 
 
