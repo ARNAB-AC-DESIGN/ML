@@ -89,12 +89,17 @@ Algorithm
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you'd like to improve this project, please follow these steps:
+We welcome contributions to improve this PCOS Prediction project! To get started, follow the steps below:
 
-1. **Fork** the repository
-2. **Clone** your forked repo:  
+### 🔧 Steps to Contribute
+
+1. **Fork** this repository  
+   [https://github.com/ARNAB-AC-DESIGN/ML](https://github.com/ARNAB-AC-DESIGN/ML)
+
+2. **Clone your fork**  
    ```bash
-   git clone https://github.com/ARNAB-AC-DESIGN/pcos-predictor.git
+   git clone https://github.com/arnab-ac-design/ML.git
+   cd ML  why you wrote your-username
 
 
 
