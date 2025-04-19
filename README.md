@@ -25,19 +25,8 @@ A machine learning web application that predicts Polycystic Ovary Syndrome (PCOS
 - Instant prediction results with explanations
 - Responsive design works on all devices
 
-## 🎥 Demo
-![App Screenshot](https://via.placeholder.com/800x400?text=PCOS+Prediction+App+Screenshot)
-
-Live demo: [Coming Soon](#)
-
-## 🛠️ Installation
 
 ### Prerequisites
 - Python 3.8+
 - pip package manager
 
-### Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/pcos-prediction-app.git
-   cd pcos-prediction-app
