@@ -68,13 +68,12 @@ Algorithm
 
         HTML5
         CSS3
+        Bootstrap 5 (optional)
 
-Bootstrap 5 (optional)
+  - Data Science
 
-Data Science
+        Jupyter Notebook
 
-Jupyter Notebook
+        Matplotlib/Seaborn
 
-Matplotlib/Seaborn
-
-Scikit-learn
+        Scikit-learn
