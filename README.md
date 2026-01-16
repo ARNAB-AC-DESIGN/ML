@@ -1,51 +1,112 @@
-# Plant Disease Prediction (Machine Learning/AI - ML)
+# PCOS Prediction Web Application
 
-## Overview
-This project focuses on predicting plant diseases using deep learning techniques. The notebook `plant_disease_pred.ipynb` contains the implementation of a model that classifies different plant diseases based on image inputs.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Flask](https://img.shields.io/badge/Flask-2.0%2B-green)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange)
+![Health Tech](https://img.shields.io/badge/Health-Tech-brightgreen)
 
-## Features
-- Image-based disease classification
-- Utilizes a Convolutional Neural Network (CNN)
-- Preprocessing of input images
-- Model training, validation, and evaluation
-- Visualization of training performance
+A machine learning web application that predicts Polycystic Ovary Syndrome (PCOS) based on clinical and lifestyle factors.
 
-## Requirements
-To run this project, install the required dependencies:
+## Table of Contents
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Model Details](#-model-details)
+- [Tech Stack](#-tech-stack)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-```bash
-pip install tensorflow keras numpy pandas matplotlib seaborn opencv-python
-```
+## ✨ Features
+- Predicts PCOS with 92% accuracy
+- User-friendly web interface
+- Detailed input form covering 20+ health parameters
+- Instant prediction results with explanations
+- Responsive design works on all devices
 
-## Dataset
-The model requires a dataset of plant disease images. Ensure you have a properly labeled dataset structured in a way that suits image classification tasks. The dataset should be split into training, validation, and test sets.
 
-## How to Use
-1. Open the `plant_disease_pred.ipynb` notebook.
-2. Load the dataset and preprocess the images.
-3. Train the CNN model using the provided code.
-4. Evaluate the model's performance on test data.
-5. Use the trained model for prediction.
+### Prerequisites
+- Python 3.8+
+- pip package manager
 
-## Model Architecture
-- Input Layer: Processes image data
-- Convolutional Layers: Extracts important features
-- Pooling Layers: Reduces dimensionality
-- Fully Connected Layers: Classifies the disease
-- Output Layer: Softmax activation for multi-class classification
+### 🤖 Model Details
+Algorithm
 
-## Results
-The model's performance is evaluated using metrics like accuracy, loss, precision, and recall. Visualization plots are included to track training progress.
 
-## Future Improvements
-- Enhance dataset quality and size
-- Implement transfer learning for better accuracy
-- Optimize hyperparameters for improved performance
-- Deploy the model as a web or mobile application
+- Random Forest Classifier (Best performing model)
 
-## License
-This project is open-source and can be modified as needed. Ensure proper citation if used in research or other projects.
+        Accuracy: 92.3%
 
-## Author
-Developed by Arnab Chakraborty
+        Precision: 0.91
+
+        Recall: 0.93
+
+- Key Features
+
+        Age
+        BMI
+        Follicle Count
+        Hormone Levels (LH/FSH ratio)
+        Insulin Levels
+        Skin/Hair Symptoms
+
+- Evaluation Metrics
+
+        Metric	Score
+        Accuracy	0.923
+        Precision	0.91
+        Recall	0.93
+        F1-Score	0.92
+### 💻 Tech Stack
+
+  - Backend
+
+        Python 3.8
+        Flask 2.0
+        Scikit-learn 1.0
+        Pandas, NumPy
+
+  - Frontend
+
+        HTML5
+        CSS3
+        Bootstrap 5 (optional)
+
+  - Data Science
+
+        Jupyter Notebook
+
+        Matplotlib/Seaborn
+
+        Scikit-learn
+### 📌 TODO / Future Improvements
+
+- Add authentication to the app
+
+- Use Docker for containerized deployment
+
+- Enhance UI/UX using Bootstrap or React
+
+- Deploy online using Heroku or Render
+
+## 🤝 Contributing
+
+We welcome contributions to improve this PCOS Prediction project! To get started, follow the steps below:
+
+### 🔧 Steps to Contribute
+
+1. **Fork** this repository  
+   [https://github.com/ARNAB-AC-DESIGN/ML](https://github.com/ARNAB-AC-DESIGN/ML)
+
+2. **Clone your fork**  
+   ```bash
+   git clone https://github.com/ARNAB-AC-DESIGN/ML.git
+   cd ML  why you wrote your-username
+
+
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+You are free to use, modify, and distribute this project with proper attribution. See the [LICENSE](./LICENSE) file for more details.
+
 
